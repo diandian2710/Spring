@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+<!--   有参构造-->
+<!--   方法一：下标赋值-->
+<!--   <bean id = "user" class = "com.kuang.pojo.User">-->
+<!--      <constructor-arg index="0" value="constructor"/>-->
+<!--   </bean>-->
+<!--    方法二:类型创建 不建议使用-->
+<!--    <bean id = "user" class="com.kuang.pojo.User">-->
+<!--        <constructor-arg type="java.lang.String" value="hahahaha"/>-->
+<!--    </bean>-->
+<!--    方法三： 通过参数名-->
+    <bean id="user" class="com.kuang.pojo.User">
+        <constructor-arg name="name" value="ashdasd"/>
+    </bean>
+    <bean id = "userT" class="com.kuang.pojo.UserT">
+
+    </bean>
+</beans>
