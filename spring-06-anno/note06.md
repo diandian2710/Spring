@@ -31,3 +31,9 @@
 - xml用来管理bean
 - 注解只负责完成属性的注入
 - 我们在使用的过程中，只需要注意一个问题：必须让注解生效，就需要开启注解的支持
+```
+<!--    制定要扫描的包，这个包下的注解会生效-->
+    <context:component-scan base-package="com.kuang"/>
+    <!--    开启注解支持-->
+    <context:annotation-config/>
+```
