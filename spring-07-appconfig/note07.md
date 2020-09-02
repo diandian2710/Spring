@@ -1,0 +1,1 @@
+##纯java的配置方式，在SpringBoot中随处可见
